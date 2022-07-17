@@ -1,0 +1,2002 @@
+openapi: 3.0.3
+info:
+  title: ''
+  version: 0.0.0
+paths:
+  /Partnership2/:
+    get:
+      operationId: Partnership2_list
+      description: API endpoint that allows Transaction to be viewed or edited.
+      tags:
+      - Partnership2
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':  
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Partnership'
+          description: ''
+    post:
+      operationId: Partnership2_create
+      description: API endpoint that allows Transaction to be viewed or edited.
+      tags:
+      - Partnership2
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partnership'
+          description: ''
+  /Partnership2/{id}/:
+    get:
+      operationId: Partnership2_retrieve
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this partnership.
+        required: true
+      tags:
+      - Partnership2
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partnership'
+          description: ''
+    put:
+      operationId: Partnership2_update
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this partnership.
+        required: true
+      tags:
+      - Partnership2
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partnership'
+          description: ''
+    patch:
+      operationId: Partnership2_partial_update
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this partnership.
+        required: true
+      tags:
+      - Partnership2
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedPartnership'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedPartnership'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedPartnership'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partnership'
+          description: ''
+    delete:
+      operationId: Partnership2_destroy
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this partnership.
+        required: true
+      tags:
+      - Partnership2
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /api/token/:
+    post:
+      operationId: api_token_create
+      description: |-
+        Takes a set of user credentials and returns an access and refresh JSON web
+        token pair to prove the authentication of those credentials.
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserTokenObtainPair'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/UserTokenObtainPair'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/UserTokenObtainPair'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserTokenObtainPair'
+          description: ''
+  /api/token/refresh/:
+    post:
+      operationId: api_token_refresh_create
+      description: |-
+        Takes a refresh type JSON web token and returns an access type JSON web
+        token if the refresh token is valid.
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TokenRefresh'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/TokenRefresh'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/TokenRefresh'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokenRefresh'
+          description: ''
+  /companies/:
+    get:
+      operationId: companies_list
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: query
+        name: eori_nr
+        schema:
+          type: integer
+      tags:
+      - companies
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Company'
+          description: ''
+    post:
+      operationId: companies_create
+      description: API endpoint that allows Transaction to be viewed or edited.
+      tags:
+      - companies
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Company'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Company'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Company'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
+  /companies/{eori_nr}/:
+    get:
+      operationId: companies_retrieve
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: eori_nr
+        schema:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        description: A unique value identifying this company.
+        required: true
+      tags:
+      - companies
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
+    put:
+      operationId: companies_update
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: eori_nr
+        schema:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        description: A unique value identifying this company.
+        required: true
+      tags:
+      - companies
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Company'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Company'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Company'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
+    patch:
+      operationId: companies_partial_update
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: eori_nr
+        schema:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        description: A unique value identifying this company.
+        required: true
+      tags:
+      - companies
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedCompany'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedCompany'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedCompany'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
+    delete:
+      operationId: companies_destroy
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: eori_nr
+        schema:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        description: A unique value identifying this company.
+        required: true
+      tags:
+      - companies
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /declaration/:
+    get:
+      operationId: declaration_list
+      description: API endpoint that allows CustomsDeclarations to be viewed or edited.
+      tags:
+      - declaration
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CustomDeclation'
+          description: ''
+    post:
+      operationId: declaration_create
+      description: API endpoint that allows CustomsDeclarations to be viewed or edited.
+      tags:
+      - declaration
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomDeclation'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/CustomDeclation'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/CustomDeclation'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomDeclation'
+          description: ''
+  /declaration/{id}/:
+    get:
+      operationId: declaration_retrieve
+      description: API endpoint that allows CustomsDeclarations to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transaction.
+        required: true
+      tags:
+      - declaration
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomDeclation'
+          description: ''
+    put:
+      operationId: declaration_update
+      description: API endpoint that allows CustomsDeclarations to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transaction.
+        required: true
+      tags:
+      - declaration
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomDeclation'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/CustomDeclation'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/CustomDeclation'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomDeclation'
+          description: ''
+    patch:
+      operationId: declaration_partial_update
+      description: API endpoint that allows CustomsDeclarations to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transaction.
+        required: true
+      tags:
+      - declaration
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedCustomDeclation'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedCustomDeclation'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedCustomDeclation'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomDeclation'
+          description: ''
+    delete:
+      operationId: declaration_destroy
+      description: API endpoint that allows CustomsDeclarations to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this transaction.
+        required: true
+      tags:
+      - declaration
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /invoice/:
+    get:
+      operationId: invoice_list
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: query
+        name: transaction
+        schema:
+          type: integer
+      tags:
+      - invoice
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Invoice'
+          description: ''
+    post:
+      operationId: invoice_create
+      description: API endpoint that allows Invoice to be viewed or edited.
+      tags:
+      - invoice
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+          description: ''
+  /invoice/{id}/:
+    get:
+      operationId: invoice_retrieve
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice.
+        required: true
+      tags:
+      - invoice
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+          description: ''
+    put:
+      operationId: invoice_update
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice.
+        required: true
+      tags:
+      - invoice
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+          description: ''
+    patch:
+      operationId: invoice_partial_update
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice.
+        required: true
+      tags:
+      - invoice
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoice'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoice'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoice'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+          description: ''
+    delete:
+      operationId: invoice_destroy
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice.
+        required: true
+      tags:
+      - invoice
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /invoiceItems/:
+    get:
+      operationId: invoiceItems_list
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: query
+        name: invoice
+        schema:
+          type: integer
+      tags:
+      - invoiceItems
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/InvoiceItem'
+          description: ''
+    post:
+      operationId: invoiceItems_create
+      description: API endpoint that allows Transaction to be viewed or edited.
+      tags:
+      - invoiceItems
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InvoiceItem'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/InvoiceItem'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/InvoiceItem'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InvoiceItem'
+          description: ''
+  /invoiceItems/{id}/:
+    get:
+      operationId: invoiceItems_retrieve
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice item.
+        required: true
+      tags:
+      - invoiceItems
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InvoiceItem'
+          description: ''
+    put:
+      operationId: invoiceItems_update
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice item.
+        required: true
+      tags:
+      - invoiceItems
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InvoiceItem'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/InvoiceItem'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/InvoiceItem'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InvoiceItem'
+          description: ''
+    patch:
+      operationId: invoiceItems_partial_update
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice item.
+        required: true
+      tags:
+      - invoiceItems
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoiceItem'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoiceItem'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoiceItem'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InvoiceItem'
+          description: ''
+    delete:
+      operationId: invoiceItems_destroy
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice item.
+        required: true
+      tags:
+      - invoiceItems
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /partnership/:
+    get:
+      operationId: partnership_list
+      description: API endpoint that allows Partnerships to be viewed or edited.
+      tags:
+      - partnership
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Partnership'
+          description: ''
+    post:
+      operationId: partnership_create
+      description: API endpoint that allows Partnerships to be viewed or edited.
+      tags:
+      - partnership
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partnership'
+          description: ''
+  /partnership/{id}/:
+    get:
+      operationId: partnership_retrieve
+      description: API endpoint that allows Partnerships to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - partnership
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partnership'
+          description: ''
+    put:
+      operationId: partnership_update
+      description: API endpoint that allows Partnerships to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - partnership
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Partnership'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partnership'
+          description: ''
+    patch:
+      operationId: partnership_partial_update
+      description: API endpoint that allows Partnerships to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - partnership
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedPartnership'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedPartnership'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedPartnership'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Partnership'
+          description: ''
+    delete:
+      operationId: partnership_destroy
+      description: API endpoint that allows Partnerships to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - partnership
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /products/:
+    get:
+      operationId: products_list
+      description: API endpoint that allows Transaction to be viewed or edited.
+      tags:
+      - products
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+          description: ''
+    post:
+      operationId: products_create
+      description: API endpoint that allows Transaction to be viewed or edited.
+      tags:
+      - products
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Product'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Product'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
+  /products/{tariccode}/:
+    get:
+      operationId: products_retrieve
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: tariccode
+        schema:
+          type: string
+        description: A unique value identifying this product.
+        required: true
+      tags:
+      - products
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
+    put:
+      operationId: products_update
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: tariccode
+        schema:
+          type: string
+        description: A unique value identifying this product.
+        required: true
+      tags:
+      - products
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Product'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Product'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
+    patch:
+      operationId: products_partial_update
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: tariccode
+        schema:
+          type: string
+        description: A unique value identifying this product.
+        required: true
+      tags:
+      - products
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedProduct'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedProduct'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedProduct'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
+    delete:
+      operationId: products_destroy
+      description: API endpoint that allows Transaction to be viewed or edited.
+      parameters:
+      - in: path
+        name: tariccode
+        schema:
+          type: string
+        description: A unique value identifying this product.
+        required: true
+      tags:
+      - products
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /transactions/:
+    get:
+      operationId: transactions_list
+      tags:
+      - transactions
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Transaction'
+          description: ''
+    post:
+      operationId: transactions_create
+      tags:
+      - transactions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+          description: ''
+  /transactions/{id}/:
+    get:
+      operationId: transactions_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - transactions
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+          description: ''
+    put:
+      operationId: transactions_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - transactions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+          description: ''
+    patch:
+      operationId: transactions_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - transactions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedTransaction'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedTransaction'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedTransaction'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+          description: ''
+    delete:
+      operationId: transactions_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+        required: true
+      tags:
+      - transactions
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      responses:
+        '204':
+          description: No response body
+  /transactions/{transaction_pk}/invoices/:
+    get:
+      operationId: transactions_invoices_list
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: query
+        name: transaction
+        schema:
+          type: integer
+      - in: path
+        name: transaction_pk
+        schema:
+          type: integer
+        required: true
+      tags:
+      - transactions
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Invoice'
+          description: ''
+    post:
+      operationId: transactions_invoices_create
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: transaction_pk
+        schema:
+          type: integer
+        required: true
+      tags:
+      - transactions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+          description: ''
+  /transactions/{transaction_pk}/invoices/{id}/:
+    get:
+      operationId: transactions_invoices_retrieve
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice.
+        required: true
+      - in: path
+        name: transaction_pk
+        schema:
+          type: integer
+        required: true
+      tags:
+      - transactions
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+          description: ''
+    put:
+      operationId: transactions_invoices_update
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice.
+        required: true
+      - in: path
+        name: transaction_pk
+        schema:
+          type: integer
+        required: true
+      tags:
+      - transactions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Invoice'
+        required: true
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+          description: ''
+    patch:
+      operationId: transactions_invoices_partial_update
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice.
+        required: true
+      - in: path
+        name: transaction_pk
+        schema:
+          type: integer
+        required: true
+      tags:
+      - transactions
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoice'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoice'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedInvoice'
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+          description: ''
+    delete:
+      operationId: transactions_invoices_destroy
+      description: API endpoint that allows Invoice to be viewed or edited.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this invoice.
+        required: true
+      - in: path
+        name: transaction_pk
+        schema:
+          type: integer
+        required: true
+      tags:
+      - transactions
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '204':
+          description: No response body
+  /users/:
+    get:
+      operationId: users_list
+      tags:
+      - users
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+          description: ''
+  /users/{id}/:
+    get:
+      operationId: users_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        required: true
+      tags:
+      - users
+      security:
+      - basicAuth: []
+      - cookieAuth: []
+      - jwtAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+components:
+  schemas:
+    Company:
+      type: object
+      properties:
+        eori_nr:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        name:
+          type: string
+          maxLength: 200
+        country_code:
+          type: string
+          maxLength: 3
+        street:
+          type: string
+          maxLength: 60
+        city_code:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        city:
+          type: string
+          maxLength: 30
+        email:
+          type: string
+          format: email
+          maxLength: 254
+        phone:
+          type: string
+          maxLength: 17
+        publickey:
+          type: string
+          maxLength: 100
+      required:
+      - city
+      - city_code
+      - country_code
+      - eori_nr
+      - name
+      - street
+    CustomDeclation:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        date_added:
+          type: string
+          format: date
+          readOnly: true
+        transportcost:
+          type: number
+          format: double
+        transportcost_currency:
+          type: string
+          maxLength: 3
+        incoterms:
+          type: string
+          maxLength: 3
+        status:
+          $ref: '#/components/schemas/StatusEnum'
+        transaction:
+          type: integer
+          nullable: true
+        customs_office:
+          type: integer
+          nullable: true
+        custom_officer:
+          type: integer
+          nullable: true
+        document:
+          type: array
+          items:
+            type: integer
+      required:
+      - date_added
+      - document
+      - id
+    Invoice:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        invoiceItem:
+          type: array
+          items:
+            $ref: '#/components/schemas/InvoiceItem'
+        invoice_text:
+          type: string
+          maxLength: 500
+        currency:
+          type: string
+          maxLength: 3
+        blockchain_id:
+          type: string
+          maxLength: 30
+        transaction:
+          type: integer
+      required:
+      - id
+      - invoiceItem
+      - transaction
+    InvoiceItem:
+      type: object
+      properties:
+        product:
+          type: string
+          maxLength: 30
+        unit:
+          type: string
+          maxLength: 30
+        amount:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        price:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+      required:
+      - amount
+      - price
+      - product
+      - unit
+    Partnership:
+      type: object
+      properties:
+        confirmed:
+          type: boolean
+        date_added:
+          type: string
+          format: date
+          readOnly: true
+        partner:
+          type: string
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+      required:
+      - date_added
+      - id
+      - partner
+    PatchedCompany:
+      type: object
+      properties:
+        eori_nr:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        name:
+          type: string
+          maxLength: 200
+        country_code:
+          type: string
+          maxLength: 3
+        street:
+          type: string
+          maxLength: 60
+        city_code:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        city:
+          type: string
+          maxLength: 30
+        email:
+          type: string
+          format: email
+          maxLength: 254
+        phone:
+          type: string
+          maxLength: 17
+        publickey:
+          type: string
+          maxLength: 100
+    PatchedCustomDeclation:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        date_added:
+          type: string
+          format: date
+          readOnly: true
+        transportcost:
+          type: number
+          format: double
+        transportcost_currency:
+          type: string
+          maxLength: 3
+        incoterms:
+          type: string
+          maxLength: 3
+        status:
+          $ref: '#/components/schemas/StatusEnum'
+        transaction:
+          type: integer
+          nullable: true
+        customs_office:
+          type: integer
+          nullable: true
+        custom_officer:
+          type: integer
+          nullable: true
+        document:
+          type: array
+          items:
+            type: integer
+    PatchedInvoice:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        invoiceItem:
+          type: array
+          items:
+            $ref: '#/components/schemas/InvoiceItem'
+        invoice_text:
+          type: string
+          maxLength: 500
+        currency:
+          type: string
+          maxLength: 3
+        blockchain_id:
+          type: string
+          maxLength: 30
+        transaction:
+          type: integer
+    PatchedInvoiceItem:
+      type: object
+      properties:
+        product:
+          type: string
+          maxLength: 30
+        unit:
+          type: string
+          maxLength: 30
+        amount:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        price:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+    PatchedPartnership:
+      type: object
+      properties:
+        confirmed:
+          type: boolean
+        date_added:
+          type: string
+          format: date
+          readOnly: true
+        partner:
+          type: string
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+    PatchedProduct:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        product_name:
+          type: string
+          maxLength: 300
+        tax_rate:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+    PatchedTransaction:
+      type: object
+      properties:
+        partnership:
+          allOf:
+          - $ref: '#/components/schemas/Partnership'
+          readOnly: true
+        importeur:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        description:
+          type: string
+          maxLength: 200
+    Product:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        product_name:
+          type: string
+          maxLength: 300
+        tax_rate:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+      required:
+      - product_name
+      - tax_rate
+      - url
+    StatusEnum:
+      enum:
+      - RE
+      - PR
+      - AC
+      - IQ
+      - RJ
+      type: string
+    TokenRefresh:
+      type: object
+      properties:
+        access:
+          type: string
+          readOnly: true
+        refresh:
+          type: string
+          writeOnly: true
+      required:
+      - access
+      - refresh
+    Transaction:
+      type: object
+      properties:
+        partnership:
+          allOf:
+          - $ref: '#/components/schemas/Partnership'
+          readOnly: true
+        importeur:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        description:
+          type: string
+          maxLength: 200
+      required:
+      - importeur
+      - partnership
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        username:
+          type: string
+          description: Required. 150 characters or fewer. Letters, digits and @/./+/-/_
+            only.
+          pattern: ^[\w.@+-]+$
+          maxLength: 150
+      required:
+      - id
+      - username
+    UserTokenObtainPair:
+      type: object
+      properties:
+        username:
+          type: string
+        password:
+          type: string
+          writeOnly: true
+      required:
+      - password
+      - username
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid
+    jwtAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

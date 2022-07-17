@@ -1,0 +1,25 @@
+
+
+
+from lucidapp.models import Company, Partnership
+from django.db.models import Q
+
+
+criterion1 = Q(partner1=1) & Q(partner2=99)
+criterion2 = Q(partner1=99) & Q(partner2=1)
+
+qs = Partnership.objects.filter(Q(criterion1 | criterion2))
+
+if not qs
+
+'''
+Konzept: 
+
+1.Abfrage des potentiellen Partners nach EORI NR -> Company filter 
+2. Abfrage ob schon in Partnerschaft (Abfrage mit filter nach Partner Field) -> frontend seitig 
+3. Absenden der Anfrage (wie gewohnt)
+
+'''
+
+"""         elif user.employee.custom_office is not None:
+            return CompanySerializer(obj.partner1).data """

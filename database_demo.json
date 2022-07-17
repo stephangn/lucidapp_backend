@@ -1,0 +1,2642 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-07-04T15:39:26.864Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "45943",
+    "object_repr": "Finest Beans Peru LTD",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-07-04T15:41:30.399Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "45943",
+    "object_repr": "Finest Beans Peru LTD",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Country code\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-07-04T15:46:57.697Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "56565",
+    "object_repr": "Hanseatischer Kaffee-Vertrieb GmbH",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-07-04T15:47:01.970Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "56565",
+    "object_repr": "Hanseatischer Kaffee-Vertrieb GmbH",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-07-04T15:48:50.493Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "67676",
+    "object_repr": "OC Sirups Canada LTD",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-07-04T15:49:46.076Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6966",
+    "object_repr": "Herz-Kaffee Franchise Gmbh",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-07-04T15:50:36.777Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14736",
+    "object_repr": "British Tea Company",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-07-04T15:51:35.385Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "484484",
+    "object_repr": "CocoaFarmers United",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-07-04T15:52:59.710Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7445656",
+    "object_repr": "Königs Delikatessen Berlin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-07-04T15:54:16.861Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Hauptzollamt Hamburg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-07-04T15:55:01.150Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Zollamt Göttingen",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-07-04T15:55:32.105Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Jose.Delgado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"employee\", \"object\": \"Jose.Delgado\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2022-07-04T15:55:53.055Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Marcel.Arends",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"employee\", \"object\": \"Marcel.Arends\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2022-07-04T15:56:19.492Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "Sebastian.Bloomberg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"employee\", \"object\": \"Sebastian.Bloomberg\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2022-07-04T15:56:40.495Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "Sebastian.Herz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2022-07-04T15:56:48.661Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "Sebastian.Herz",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"employee\", \"object\": \"Sebastian.Herz\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2022-07-04T15:57:14.719Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "Scott.McCullum",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2022-07-04T15:57:22.086Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "Scott.McCullum",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"employee\", \"object\": \"Scott.McCullum\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2022-07-04T15:57:34.001Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "Adams.Abalugsah",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2022-07-04T15:57:41.641Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "Adams.Abalugsah",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"employee\", \"object\": \"Adams.Abalugsah\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2022-07-04T15:58:06.915Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "Manuela.Franz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"employee\", \"object\": \"Manuela.Franz\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2022-07-04T15:58:30.188Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "Max.Mannheimer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"employee\", \"object\": \"Max.Mannheimer\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2022-07-04T15:58:56.257Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "Peter.Silie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"employee\", \"object\": \"Peter.Silie\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2022-07-04T18:27:52.573Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Marcel.Arends",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.414Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "docs/eco1_info.pdf",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.416Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "media/docs/20210727_FB_AutoVision_Ergebnis_fg_csdxmh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.417Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "media/docs/20210727_FB_AutoVision_Ergebnis_fg_tygsyb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.418Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "media/docs/20210727_FB_AutoVision_Ergebnis_fg_wso4mz",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.419Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "media/docs/20210727_FB_AutoVision_Ergebnis_fg_ruj7hf",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.420Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "media/docs/20210727_FB_AutoVision_Ergebnis_fg_dg0h15",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.421Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "media/docs/20210727_FB_AutoVision_Ergebnis_fg_o7fwqx",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.422Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "media/docs/1_eng_x7jbza",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.423Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "media/docs/Frachtbrief-_pf4pfv",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.423Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "media/docs/CaseStudyBA_gjkhby",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2022-07-17T17:55:41.424Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "media/docs/20210727_FB_AutoVision_Ergebnis_fg_jpo4if",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add company",
+    "content_type": 7,
+    "codename": "add_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change company",
+    "content_type": 7,
+    "codename": "change_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete company",
+    "content_type": 7,
+    "codename": "delete_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view company",
+    "content_type": 7,
+    "codename": "view_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add customs office",
+    "content_type": 8,
+    "codename": "add_customsoffice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change customs office",
+    "content_type": 8,
+    "codename": "change_customsoffice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete customs office",
+    "content_type": 8,
+    "codename": "delete_customsoffice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view customs office",
+    "content_type": 8,
+    "codename": "view_customsoffice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add employee",
+    "content_type": 9,
+    "codename": "add_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change employee",
+    "content_type": 9,
+    "codename": "change_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete employee",
+    "content_type": 9,
+    "codename": "delete_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view employee",
+    "content_type": 9,
+    "codename": "view_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add partnership",
+    "content_type": 10,
+    "codename": "add_partnership"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change partnership",
+    "content_type": 10,
+    "codename": "change_partnership"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete partnership",
+    "content_type": 10,
+    "codename": "delete_partnership"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view partnership",
+    "content_type": 10,
+    "codename": "view_partnership"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add transaction",
+    "content_type": 11,
+    "codename": "add_transaction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change transaction",
+    "content_type": 11,
+    "codename": "change_transaction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete transaction",
+    "content_type": 11,
+    "codename": "delete_transaction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view transaction",
+    "content_type": 11,
+    "codename": "view_transaction"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add file",
+    "content_type": 12,
+    "codename": "add_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change file",
+    "content_type": 12,
+    "codename": "change_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete file",
+    "content_type": 12,
+    "codename": "delete_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view file",
+    "content_type": 12,
+    "codename": "view_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 13,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 13,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 13,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 13,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add invoice",
+    "content_type": 14,
+    "codename": "add_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change invoice",
+    "content_type": 14,
+    "codename": "change_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete invoice",
+    "content_type": 14,
+    "codename": "delete_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view invoice",
+    "content_type": 14,
+    "codename": "view_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 15,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 15,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 15,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 15,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add invoice item",
+    "content_type": 16,
+    "codename": "add_invoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change invoice item",
+    "content_type": 16,
+    "codename": "change_invoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete invoice item",
+    "content_type": 16,
+    "codename": "delete_invoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view invoice item",
+    "content_type": 16,
+    "codename": "view_invoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add custom declaration",
+    "content_type": 17,
+    "codename": "add_customdeclaration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change custom declaration",
+    "content_type": 17,
+    "codename": "change_customdeclaration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete custom declaration",
+    "content_type": 17,
+    "codename": "delete_customdeclaration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view custom declaration",
+    "content_type": 17,
+    "codename": "view_customdeclaration"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add notification",
+    "content_type": 18,
+    "codename": "add_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change notification",
+    "content_type": 18,
+    "codename": "change_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete notification",
+    "content_type": 18,
+    "codename": "delete_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view notification",
+    "content_type": 18,
+    "codename": "view_notification"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$tc3Fee21cgNAJAmMqfC6x5$X0TQxUCdOiKEl/CKo0Xpxvrzk8Lo/nwY/JoArtVCPl0=",
+    "last_login": "2022-07-17T17:55:26.409Z",
+    "is_superuser": true,
+    "username": "stephan",
+    "first_name": "",
+    "last_name": "",
+    "email": "sguthahn@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:08:45.065Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$Pv8Dsr2PcJNTn5ZcJWbb9z$lkB5x5AdhZG/DbYdKjn240TTgt24TvXSYD3etJlspOk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Jose.Delgado",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:55:31.845Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$3KJhf9zepUkvBPwzusEgkH$bhe9orsHUCtDEKY/juXvrDJ6loVIfarwYTWSvvCC5ak=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Marcel.Arends",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:55:52.801Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$IoGCCen7k9HSBvHBsuhW8m$Adsc+fjwZ4QZljM5OOmGx4xS7VaFgGu+iAdGPAuI9hg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Sebastian.Bloomberg",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:56:19.277Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$DDb868LQfdNan43MTPIPG5$qEBFkPoFg73H3MwFGQWqycbAjgeca5A87qP4QxSLKow=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Sebastian.Herz",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:56:40Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$DBMYNkMj9l5CIdWzufyNe5$aRHUezwqbREZD3UsFMPktMIYwi34VZEQCwDBs32eyjM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Scott.McCullum",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:57:14Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$zBNDNbTmJ1tsd95FPBNrjC$B6mHl/4sH0vdgzwfmlZQivAh/GLc8jDGz8tTn8tki1Q=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Adams.Abalugsah",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:57:33Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$gt5vTAPtmzDjaoFV4zfNK1$94ot42UpOVH1EW9/EUilUMthHbPk5RRQ/ZgBuoC7awQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Manuela.Franz",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:58:06.657Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$PpuT2yjzD3Ije7l1sTzRWV$HYA4nsQihVe4lYw0Iouzq/KxN2BoW+DjeW8zc/2+SFM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Max.Mannheimer",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:58:29.935Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$N0Y1BksqL53TtQqQVOPi6k$Z5pyCengpwqGYRNVyRxKgR3/ZOIkHG/8aO7x0s+97mE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Peter.Silie",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-07-04T15:58:56.001Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "company"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "customsoffice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "employee"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "partnership"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "transaction"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "file"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "invoice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "invoiceitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "lucidapp",
+    "model": "customdeclaration"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "notifications",
+    "model": "notification"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "au03l6n7rqqjob23n0w7k5ili83qh4u3",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnfWxZK-pzB8l-MAyiR4qRC3J1ESgHNFPPezFvFtK0lblWWOLK6KqMuvx0mesp0AH6k6T5rmqd1GVEfij5p1cPM8rqd7t9BSbXs68Zg5hCkDdgzmGw8oEXK6J3zDZgWhMA6BmImAjLSkZXOk9sj9El9vu2rOEI:1o8O6q:zNcMMPk8ZDYI9Qyk6BV14dAyF8tXmrevLUiq7BdRkNQ",
+    "expire_date": "2022-07-18T15:35:36.265Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l4c64h1mrny1j8zz0s5n260cwu7hlfyo",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSFMYQRcuu83kOExUjU0Ke3K-O_apAvd3nPOfYlA21rD1ssSpiwuAsTpd4uUHqXtIN-p3WaZ5rYuU5S7Ig_a5Tjn8rwe7t9BpV6_tddGe2csnIENAEVijMU7yJCUt05rtikxo1Zc9KAYDXpGiFQGgxbF-wPGRTdN:1oD8UI:9rwGpuUNMFnRcE9S-WaP9LBQKEsG9mMaXnI3xfy6-Ck",
+    "expire_date": "2022-07-31T17:55:26.410Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q89c8v0cxw22frjmtc5i6qhzzlw7c9wt",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAURO_iGlnfWxZK-pzB8l-MAyiR4qRC3J1ESgHNFPPezFvFtK0lblWWOLK6KqMuvx0mesp0AH6k6T5rmqd1GVEfij5p1cPM8rqd7t9BSbXs68Zg5hCkDdgzmGw8oEXK6J3zDZgWhMA6BmImAjLSkZXOk9sj9El9vu2rOEI:1o8QnY:R3K0wGgPBl0kN2LfhorS3Scin9A-Mey1HoOFfZ4Qfcw",
+    "expire_date": "2022-07-18T18:27:52.715Z"
+  }
+},
+{
+  "model": "lucidapp.company",
+  "pk": 6966,
+  "fields": {
+    "name": "Herz-Kaffee Franchise Gmbh",
+    "country_code": "Deutschland",
+    "street": "Opernplatz 1",
+    "city_code": 30159,
+    "city": "Hannover",
+    "email": "einkauf@herz-kaffee.de",
+    "phone": "05119999111",
+    "publickey": "0xf9D8B5828d6134b5F17B29bdAD35eE15cA9b41a5"
+  }
+},
+{
+  "model": "lucidapp.company",
+  "pk": 14736,
+  "fields": {
+    "name": "British Tea Company",
+    "country_code": "Great Britain",
+    "street": "Cromwell Road",
+    "city_code": 245212,
+    "city": "London",
+    "email": "tealovers@british.com",
+    "phone": "00442079425000",
+    "publickey": "0xA0E0B824074d6f3dA3D39d62C9d32f8A3c81A47C"
+  }
+},
+{
+  "model": "lucidapp.company",
+  "pk": 45943,
+  "fields": {
+    "name": "Finest Beans Peru LTD",
+    "country_code": "Peru",
+    "street": "Jr. Faustino Sánchez Carrión 200",
+    "city_code": 45455,
+    "city": "Cosco",
+    "email": "Exportoffice@finestbeans.com",
+    "phone": "005112640027",
+    "publickey": "0xB74de3D7a101d93136c09122f2aF7F40B5846597"
+  }
+},
+{
+  "model": "lucidapp.company",
+  "pk": 56565,
+  "fields": {
+    "name": "Hanseatischer Kaffee-Vertrieb GmbH",
+    "country_code": "Deutschland",
+    "street": "Am Hafen 15",
+    "city_code": 20095,
+    "city": "Hamburg",
+    "email": "Incoming@kaffeevertrieb.de",
+    "phone": "04239 98475",
+    "publickey": "0xAeAda1e3d3DB72C07B7BE1129925A2cD5f4d4519"
+  }
+},
+{
+  "model": "lucidapp.company",
+  "pk": 67676,
+  "fields": {
+    "name": "OC Sirups Canada LTD",
+    "country_code": "Canada",
+    "street": "317 Dundas Street",
+    "city_code": 5525,
+    "city": "Toronto",
+    "email": "info@sirups.com",
+    "phone": "003493 108553",
+    "publickey": "0x2975fF34e6837d5eba591717a920783F29980253"
+  }
+},
+{
+  "model": "lucidapp.company",
+  "pk": 484484,
+  "fields": {
+    "name": "CocoaFarmers United",
+    "country_code": "Ghana",
+    "street": "Nana Agyekum  St.",
+    "city_code": 3434,
+    "city": "Capetown",
+    "email": "info@cacaofarmers.gh",
+    "phone": "233332133332",
+    "publickey": "0x4393425645221e2008dCfa4a3E092F7C20Bb3183"
+  }
+},
+{
+  "model": "lucidapp.company",
+  "pk": 7445656,
+  "fields": {
+    "name": "Königs Delikatessen Berlin",
+    "country_code": "Deutschland",
+    "street": "Kurfürstendamm 45",
+    "city_code": 10719,
+    "city": "Berlin",
+    "email": "schmeckt@koenigs.de",
+    "phone": "030 863919310",
+    "publickey": "0x0c7d69181DD8e096a3b311dEE0D9e6f4EC58B527"
+  }
+},
+{
+  "model": "lucidapp.customsoffice",
+  "pk": 1,
+  "fields": {
+    "name": "Hauptzollamt Hamburg",
+    "country_code": "Koreastraße 4",
+    "street": "Hamburg",
+    "city_code": 20457,
+    "city": "Hamburg",
+    "email": "hamburg@zoll.de",
+    "phone": "040800030",
+    "publickey": "0x7a2Be20a6f37CdfC859DB36288d24d8BDaBDe0c9"
+  }
+},
+{
+  "model": "lucidapp.customsoffice",
+  "pk": 2,
+  "fields": {
+    "name": "Zollamt Göttingen",
+    "country_code": "Deutschland",
+    "street": "Hagenweg 4",
+    "city_code": 37081,
+    "city": "Göttingen",
+    "email": "Goettingen@zoll.de",
+    "phone": "004955179770",
+    "publickey": "0x13B16e02B251125FCd7e17AD3cdc7cCAEe602Edc"
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "company": 45943,
+    "custom_office": null
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "company": 56565,
+    "custom_office": null
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "company": 67676,
+    "custom_office": null
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 4,
+  "fields": {
+    "user": 5,
+    "company": 6966,
+    "custom_office": null
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 5,
+  "fields": {
+    "user": 6,
+    "company": 14736,
+    "custom_office": null
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 6,
+  "fields": {
+    "user": 7,
+    "company": 484484,
+    "custom_office": null
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 7,
+  "fields": {
+    "user": 8,
+    "company": 7445656,
+    "custom_office": null
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 8,
+  "fields": {
+    "user": 9,
+    "company": null,
+    "custom_office": 1
+  }
+},
+{
+  "model": "lucidapp.employee",
+  "pk": 9,
+  "fields": {
+    "user": 10,
+    "company": null,
+    "custom_office": 2
+  }
+},
+{
+  "model": "lucidapp.partnership",
+  "pk": 1,
+  "fields": {
+    "partner1": 45943,
+    "partner2": 6966,
+    "confirmed": true,
+    "date_added": "2022-07-04",
+    "is_archived": false,
+    "timestamp_added": "2022-07-04T17:41:09.730Z",
+    "timestamp_processed": "2022-07-04T17:43:08.094Z"
+  }
+},
+{
+  "model": "lucidapp.partnership",
+  "pk": 2,
+  "fields": {
+    "partner1": 56565,
+    "partner2": 6966,
+    "confirmed": true,
+    "date_added": "2022-07-04",
+    "is_archived": false,
+    "timestamp_added": "2022-07-04T18:32:32.573Z",
+    "timestamp_processed": "2022-07-04T18:32:54.366Z"
+  }
+},
+{
+  "model": "lucidapp.partnership",
+  "pk": 3,
+  "fields": {
+    "partner1": 14736,
+    "partner2": 45943,
+    "confirmed": true,
+    "date_added": "2022-07-04",
+    "is_archived": false,
+    "timestamp_added": "2022-07-04T18:35:59.670Z",
+    "timestamp_processed": "2022-07-04T18:38:50.529Z"
+  }
+},
+{
+  "model": "lucidapp.partnership",
+  "pk": 4,
+  "fields": {
+    "partner1": 7445656,
+    "partner2": 7445656,
+    "confirmed": false,
+    "date_added": "2022-07-04",
+    "is_archived": false,
+    "timestamp_added": "2022-07-04T18:37:22.987Z",
+    "timestamp_processed": "2022-07-04T18:37:22.987Z"
+  }
+},
+{
+  "model": "lucidapp.partnership",
+  "pk": 5,
+  "fields": {
+    "partner1": 7445656,
+    "partner2": 45943,
+    "confirmed": true,
+    "date_added": "2022-07-04",
+    "is_archived": false,
+    "timestamp_added": "2022-07-04T18:39:40.082Z",
+    "timestamp_processed": "2022-07-04T18:40:03.437Z"
+  }
+},
+{
+  "model": "lucidapp.partnership",
+  "pk": 6,
+  "fields": {
+    "partner1": 56565,
+    "partner2": 14736,
+    "confirmed": true,
+    "date_added": "2022-07-04",
+    "is_archived": false,
+    "timestamp_added": "2022-07-04T18:43:17.421Z",
+    "timestamp_processed": "2022-07-04T18:44:20.573Z"
+  }
+},
+{
+  "model": "lucidapp.partnership",
+  "pk": 7,
+  "fields": {
+    "partner1": 56565,
+    "partner2": 45943,
+    "confirmed": true,
+    "date_added": "2022-07-04",
+    "is_archived": false,
+    "timestamp_added": "2022-07-04T19:42:40.866Z",
+    "timestamp_processed": "2022-07-04T19:43:15.773Z"
+  }
+},
+{
+  "model": "lucidapp.transaction",
+  "pk": 1,
+  "fields": {
+    "partnership": 1,
+    "importeur": 6966,
+    "description": "Einkauf von Kaffeebohnen für Standort Berlin",
+    "date_added": "2022-07-04",
+    "date_processed": "2022-07-04",
+    "timestamp_added": "2022-07-04T17:44:19.648Z",
+    "timestamp_processed": "2022-07-04T18:10:54.238Z",
+    "status": 3
+  }
+},
+{
+  "model": "lucidapp.transaction",
+  "pk": 2,
+  "fields": {
+    "partnership": 2,
+    "importeur": 6966,
+    "description": "Arabica Bohnen",
+    "date_added": "2022-07-04",
+    "date_processed": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:35:34.457Z",
+    "timestamp_processed": "2022-07-04T18:35:34.457Z",
+    "status": 1
+  }
+},
+{
+  "model": "lucidapp.transaction",
+  "pk": 3,
+  "fields": {
+    "partnership": 2,
+    "importeur": 56565,
+    "description": "Robusta Bohnen",
+    "date_added": "2022-07-04",
+    "date_processed": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:37:30.753Z",
+    "timestamp_processed": "2022-07-04T18:37:30.754Z",
+    "status": 1
+  }
+},
+{
+  "model": "lucidapp.transaction",
+  "pk": 4,
+  "fields": {
+    "partnership": 5,
+    "importeur": 7445656,
+    "description": "Einkauf von Bohnen des neuen Jahrgangs",
+    "date_added": "2022-07-04",
+    "date_processed": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:44:14.942Z",
+    "timestamp_processed": "2022-07-04T18:44:14.942Z",
+    "status": 1
+  }
+},
+{
+  "model": "lucidapp.transaction",
+  "pk": 5,
+  "fields": {
+    "partnership": 3,
+    "importeur": 14736,
+    "description": "Verkauf der ersten Tee-Ernte",
+    "date_added": "2022-07-04",
+    "date_processed": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:44:40.963Z",
+    "timestamp_processed": "2022-07-04T18:44:40.963Z",
+    "status": 1
+  }
+},
+{
+  "model": "lucidapp.transaction",
+  "pk": 7,
+  "fields": {
+    "partnership": 6,
+    "importeur": 56565,
+    "description": "Earl Grey",
+    "date_added": "2022-07-04",
+    "date_processed": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:45:51.472Z",
+    "timestamp_processed": "2022-07-04T18:53:40.355Z",
+    "status": 3
+  }
+},
+{
+  "model": "lucidapp.document",
+  "pk": 1,
+  "fields": {
+    "transaction": 1,
+    "type": "Rechnung",
+    "description": "",
+    "blockchain_id": "0",
+    "file": null,
+    "owner": 2,
+    "upload_date": "2022-07-04",
+    "timestamp_added": "2022-07-04T17:58:28.606Z",
+    "issue_date": "2022-07-05",
+    "confirmed": false
+  }
+},
+{
+  "model": "lucidapp.document",
+  "pk": 2,
+  "fields": {
+    "transaction": 1,
+    "type": "Rechnung",
+    "description": "Rechnung über die Lieferung von Kaffee",
+    "blockchain_id": "1",
+    "file": null,
+    "owner": 2,
+    "upload_date": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:03:24.296Z",
+    "issue_date": "2022-07-12",
+    "confirmed": false
+  }
+},
+{
+  "model": "lucidapp.document",
+  "pk": 5,
+  "fields": {
+    "transaction": 2,
+    "type": "Rechnung",
+    "description": "",
+    "blockchain_id": "2",
+    "file": null,
+    "owner": 3,
+    "upload_date": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:37:03.979Z",
+    "issue_date": "2022-07-04",
+    "confirmed": false
+  }
+},
+{
+  "model": "lucidapp.document",
+  "pk": 6,
+  "fields": {
+    "transaction": 3,
+    "type": "Rechnung",
+    "description": "",
+    "blockchain_id": "3",
+    "file": null,
+    "owner": 5,
+    "upload_date": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:40:19.015Z",
+    "issue_date": "2022-07-05",
+    "confirmed": false
+  }
+},
+{
+  "model": "lucidapp.document",
+  "pk": 7,
+  "fields": {
+    "transaction": 7,
+    "type": "Rechnung",
+    "description": "",
+    "blockchain_id": "4",
+    "file": null,
+    "owner": 6,
+    "upload_date": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:48:36.697Z",
+    "issue_date": "2022-07-04",
+    "confirmed": false
+  }
+},
+{
+  "model": "lucidapp.document",
+  "pk": 9,
+  "fields": {
+    "transaction": 5,
+    "type": "Rechnung",
+    "description": "Rechnung über Lieferung von Kaffeebohnen",
+    "blockchain_id": "5",
+    "file": null,
+    "owner": 2,
+    "upload_date": "2022-07-04",
+    "timestamp_added": "2022-07-04T18:53:48.585Z",
+    "issue_date": "2022-07-01",
+    "confirmed": false
+  }
+},
+{
+  "model": "lucidapp.invoice",
+  "pk": 1,
+  "fields": {
+    "invoice_text": "",
+    "currency": "EUR",
+    "transport_costs": 5.0
+  }
+},
+{
+  "model": "lucidapp.invoice",
+  "pk": 2,
+  "fields": {
+    "invoice_text": "",
+    "currency": "EUR",
+    "transport_costs": 350.0
+  }
+},
+{
+  "model": "lucidapp.invoice",
+  "pk": 5,
+  "fields": {
+    "invoice_text": "",
+    "currency": "EUR",
+    "transport_costs": 600.0
+  }
+},
+{
+  "model": "lucidapp.invoice",
+  "pk": 6,
+  "fields": {
+    "invoice_text": "",
+    "currency": "EUR",
+    "transport_costs": 400.0
+  }
+},
+{
+  "model": "lucidapp.invoice",
+  "pk": 7,
+  "fields": {
+    "invoice_text": "",
+    "currency": "EUR",
+    "transport_costs": 500.0
+  }
+},
+{
+  "model": "lucidapp.invoice",
+  "pk": 9,
+  "fields": {
+    "invoice_text": "",
+    "currency": "EUR",
+    "transport_costs": 34.0
+  }
+},
+{
+  "model": "lucidapp.invoiceitem",
+  "pk": 1,
+  "fields": {
+    "product": "asdasd",
+    "unit": "asdasd",
+    "amount": 3,
+    "invoice": 1,
+    "price": 3
+  }
+},
+{
+  "model": "lucidapp.invoiceitem",
+  "pk": 2,
+  "fields": {
+    "product": "Robusta",
+    "unit": "KG",
+    "amount": 34,
+    "invoice": 2,
+    "price": 26
+  }
+},
+{
+  "model": "lucidapp.invoiceitem",
+  "pk": 3,
+  "fields": {
+    "product": "Arabica",
+    "unit": "KG",
+    "amount": 49,
+    "invoice": 2,
+    "price": 39
+  }
+},
+{
+  "model": "lucidapp.invoiceitem",
+  "pk": 4,
+  "fields": {
+    "product": "Arabica Bohnen",
+    "unit": "Tonnen",
+    "amount": 4,
+    "invoice": 5,
+    "price": 1299
+  }
+},
+{
+  "model": "lucidapp.invoiceitem",
+  "pk": 5,
+  "fields": {
+    "product": "Robusta Bohnen",
+    "unit": "Tonnen",
+    "amount": 3,
+    "invoice": 6,
+    "price": 1899
+  }
+},
+{
+  "model": "lucidapp.invoiceitem",
+  "pk": 6,
+  "fields": {
+    "product": "Earl Grey",
+    "unit": "Tonnen",
+    "amount": 4,
+    "invoice": 7,
+    "price": 6
+  }
+},
+{
+  "model": "lucidapp.invoiceitem",
+  "pk": 7,
+  "fields": {
+    "product": "Arabica",
+    "unit": "KG",
+    "amount": 45,
+    "invoice": 9,
+    "price": 30
+  }
+},
+{
+  "model": "lucidapp.customdeclaration",
+  "pk": 1,
+  "fields": {
+    "date_added": "2022-07-04",
+    "invoice": 2,
+    "transaction": 1,
+    "blockchain_zid": "0",
+    "customs_office": 1,
+    "custom_officer": null,
+    "anmeldeArt": "CO",
+    "geschaeftArt": "Geschäftsart B",
+    "zahlungsart": "Banküberweisung",
+    "ausfuhrland": "Peru",
+    "bestimmungsland": "Deutschland",
+    "befoerderungsmittel": "Lastkraftwagen",
+    "lieferbedingung": "unfrei",
+    "lieferort": "Göttingen",
+    "warenort": "Köln",
+    "timestamp_added": "2022-07-04T17:41:09.730Z",
+    "status_verificiation": "ausstehend",
+    "status_confirmation": "ausstehend",
+    "status": "PE",
+    "document": []
+  }
+},
+{
+  "model": "lucidapp.customdeclaration",
+  "pk": 2,
+  "fields": {
+    "date_added": "2022-07-04",
+    "invoice": 7,
+    "transaction": 7,
+    "blockchain_zid": "1",
+    "customs_office": 1,
+    "custom_officer": null,
+    "anmeldeArt": "CO",
+    "geschaeftArt": "Geschäftsart D",
+    "zahlungsart": "Banküberweisung",
+    "ausfuhrland": "Großbritannien",
+    "bestimmungsland": "Deutschland",
+    "befoerderungsmittel": "Schiff",
+    "lieferbedingung": "frei",
+    "lieferort": "Hamburg",
+    "warenort": "Berlin",
+    "timestamp_added": "2022-07-04T17:41:09.730Z",
+    "status_verificiation": "ausstehend",
+    "status_confirmation": "ausstehend",
+    "status": "PE",
+    "document": []
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 1,
+  "fields": {
+    "level": "info",
+    "recipient": 2,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "1",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T17:44:19.661Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 2,
+  "fields": {
+    "level": "info",
+    "recipient": 5,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "1",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T17:44:19.661Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 3,
+  "fields": {
+    "level": "info",
+    "recipient": 2,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "1",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:05:07.774Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 4,
+  "fields": {
+    "level": "info",
+    "recipient": 5,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "1",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:05:07.774Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 5,
+  "fields": {
+    "level": "info",
+    "recipient": 2,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "1",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:10:54.246Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 6,
+  "fields": {
+    "level": "info",
+    "recipient": 5,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "1",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:10:54.246Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 7,
+  "fields": {
+    "level": "info",
+    "recipient": 5,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "2",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:35:34.465Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 8,
+  "fields": {
+    "level": "info",
+    "recipient": 3,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "2",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:35:34.465Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 9,
+  "fields": {
+    "level": "info",
+    "recipient": 5,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "3",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:37:30.763Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 10,
+  "fields": {
+    "level": "info",
+    "recipient": 3,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "3",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:37:30.763Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 11,
+  "fields": {
+    "level": "info",
+    "recipient": 2,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "4",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:44:14.949Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 12,
+  "fields": {
+    "level": "info",
+    "recipient": 8,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "4",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:44:14.949Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 13,
+  "fields": {
+    "level": "info",
+    "recipient": 2,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "5",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:44:40.971Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 14,
+  "fields": {
+    "level": "info",
+    "recipient": 6,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "5",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:44:40.971Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 15,
+  "fields": {
+    "level": "info",
+    "recipient": 6,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "6",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:45:04.154Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 16,
+  "fields": {
+    "level": "info",
+    "recipient": 3,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "6",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:45:04.154Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 17,
+  "fields": {
+    "level": "info",
+    "recipient": 6,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "7",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:45:51.480Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 18,
+  "fields": {
+    "level": "info",
+    "recipient": 3,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "7",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:45:51.480Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 19,
+  "fields": {
+    "level": "info",
+    "recipient": 6,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "7",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:53:40.363Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 20,
+  "fields": {
+    "level": "info",
+    "recipient": 3,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "7",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T18:53:40.363Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 21,
+  "fields": {
+    "level": "info",
+    "recipient": 2,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "8",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T19:44:01.763Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 22,
+  "fields": {
+    "level": "info",
+    "recipient": 3,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "8",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T19:44:01.763Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 23,
+  "fields": {
+    "level": "info",
+    "recipient": 2,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "8",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T19:52:52.540Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 24,
+  "fields": {
+    "level": "info",
+    "recipient": 3,
+    "unread": true,
+    "actor_content_type": 11,
+    "actor_object_id": "8",
+    "verb": "wurde angelegt",
+    "description": null,
+    "target_content_type": null,
+    "target_object_id": null,
+    "action_object_content_type": null,
+    "action_object_object_id": null,
+    "timestamp": "2022-07-04T19:52:52.540Z",
+    "public": true,
+    "deleted": false,
+    "emailed": false,
+    "data": null
+  }
+}
+]
