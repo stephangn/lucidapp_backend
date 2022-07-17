@@ -6,7 +6,7 @@ Die LUCID-APP ist der Prototyp einer Zollsoftware zur DLT-gestützten Abwicklung
 
 ## Installation
 
-Ausführen per Docker (vorausgesetzt ist eine aktuelle Docker Installation)
+Ausführen per Docker (vorausgesetzt ist eine aktuelle Docker Installation - sofern nicht Docker Desktop eingesetzt wird, muss Docker Compose extra installiert werden und die Befehle lauten docker-compose statt Docker compose)
 
 Bauen des Container 
 
